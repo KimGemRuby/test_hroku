@@ -1,0 +1,116 @@
+var a="abrazd"
+a.indexOf('z')
+>4
+
+var fc=function(){
+
+}
+
+
+//Class
+// Ther's no class in JS in a proper way of speaking. 
+// create an object and te object will be based in a function inside of the object.
+var Stud={
+	operation:function() {
+		return 1
+		}
+	}
+var obama=Object.create(stud)
+
+// constructor with JS
+var User=function(name){
+this.mane=name
+}
+var user1=new User("Peter")
+
+// GET
+var Session={
+get: function(){
+	}
+}
+Session.get()
+objet:
+Math
+
+
+Objects (THP verssion)
+let THPSessionNum2 = {
+  numOfMouss: 80,
+  cities: ["Paris", "Lyon", "Montpellier"],
+  successRate: 0.80,
+  sessionMoto: "keep pushing to the top"
+};
+
+console.log(THPSessionNum2.numOfMouss);  	>> 80
+console.log(THPSessionNum2.sessionMoto);	>> "keep pushing to the top"
+
+Case:
+weekNum = 1; //teste avec plusieurs valeurs
+switch (weekNum) {
+  case 1:
+    console.log("Semaine 1 - Introduction au Code");
+    break;
+  case 2:
+    console.log("Semaine 2 - Découverte de Ruby");
+    break;
+}
+
+// 	for in
+//On déclare ensuite un objet
+let weeksOfTHPObject = {Semaine5: "Rails intermédiaire", Semaine6: "Rails avancé", Semaine7: "HTML / CSS et intro au JS", Semaine8: "JavaScript de front"};
+
+console.log("**********Parcourons le array :")
+for(let index in weeksOfTHPArray) {
+  console.log(index); // index va aller de 0 à 3
+  console.log(weeksOfTHPArray[index]);
+}
+
+console.log("**********Parcourons l'objet :")
+for(let weekAttribut in weeksOfTHPObject) {
+  console.log(weekAttribut); //weekAttribut va avoir les valeurs "Semaine5" à "Semaine8"
+  console.log(weeksOfTHPObject[weekAttribut]);
+}
+
+
+alert // est ressamblable au 'prompt'
+
+DOM:
+	FINDING HTML ELEMENTS.
+    -document.getElementById(id)
+    -document.getElementsByTagName(name)   // We use this if we want to return a collection of elements
+    -document.getElementsByClassName(name)
+
+	CHANGING HTML ELEMENTS.
+     -element.innerHTML =  new html content
+     -element.attribute = new value
+     -element.style.property = new style
+	METHODE
+     -element.setAttribute(attribute, value)
+
+	ADDING AND DELETING ELEMNTS
+     -document.createElement(element)
+     -document.removeChild(element)
+     -document.appendChild(element)	//Add an HTML element
+     -document.replaceChild(new, old)	//Replace an HTML element
+     -document.write(text) 		// Write into the HTML output stream
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
